@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="project.css" rel="stylesheet">
+    <title>201724436 틀딱 김재현</title>
+
+</head>
+<script src="https://code.jquery.com/jquery-3.6.0.slim.js"
+    integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous">
+    </script>
+<script src="project.js"></script>
+
+
+
+<main>
+    <header>
+        <section class="hbody">
+            <nav class="nav">
+                <div class="title"><a href="project.html">웹기?초</a>
+                </div>
+                <ul id="menu">
+                    <li><a href="project_news.html">기사검색</a></li>
+                    <li><a href="project_price.html">가격검색</a></li>
+                    <li><a href="project_pic.html">사진만들기</a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <section class="contain">
+        <h1>오늘의 기분을 그림으로 그려보아요!</h1><br><br>
+        <select id="meme" class="choice_box">
+            <option value="Advice Doge">그림선택!</option>
+            <option value="10-Guy">10-Guy</option>
+            <option value="1950s Middle Finger">1950s Middle Finger</option>
+            <option value="1990s First World Problems">1990s First World Problems</option>
+            <option value="Advice Doge">Advice Doge</option>
+            <option value="And everybody loses their minds">And everybody loses their minds</option>
+            <option value="Annoying Facebook Girl">Annoying Facebook Girl</option>
+            <option value="Angry Rant Randy">Angry Rant Randy</option>
+            <option value="Cereal Guys Daddy">Cereal Guys Daddy</option>
+            <option value="Charlie Sheen Derp">Charlie Sheen Derp</option>
+            <option value="Chef Gordon Ramsay">Chef Gordon Ramsay</option>
+            <option value="Business Cat">Business Cat</option>
+            <option value="Challenge Accepted Rage Face">Challenge Accepted Rage Face</option>
+            <option value="Computer Guy">Computer Guy</option>
+            <option value="Computer Guy Facepalm">Computer Guy Facepalm</option>
+            <option value="Troll Face Colored">Troll Face Colored</option>
+            <option value="Troll Face">Troll Face</option>
+            <option value="Tears Of Joy">Tears Of Joy</option>
+            <option value="Mamimoe">Mamimoe</option>
+            <option value="LOL Guy">LOL Guy</option>
+            <option value="Imagination Spongebob">Imagination Spongebob</option>
+            <option value="Happy Guy Rage Face">Happy Guy Rage Face</option>
+            <option value="Gollum">Gollum</option>
+            <option value="Fk Yeah">Fk Yeah</option>
+            <option value="Doge 2">Doge 2</option>
+            <option value="Doge">Doge</option>
+            <option value="Derpina">Derpina</option>
+            <option value="Computer Horse">Computer Horse</option>
+            <option value="Bitch Please">Bitch Please</option>
+            <option value="Be Like Bill">Be Like Bill</option>
+            <option value="Aw Yeah Rage Face">Aw Yeah Rage Face</option>
+            <option value="Afraid To Ask Andy">Afraid To Ask Andy</option>
+        </select><br /><br />
+        <input type="text" id="top" value="HELLO" onkeyup="chkCharCode(event)"><br />
+        <input type="text" id="bottom" value="ITS ME" onkeyup="chkCharCode(event)"><br />
+        <input type="button" value="클릭!" onclick="setpic()"><br /><br />
+        <img id="here">
+        <br /><br /><br />
+    </section>
+
+</main>
+<footer>
+    &copy;Kim_jae_hyeon<br />
+    111-2507, 10, Busandaehak-ro, Geumjeong-gu, Busan, Republic of Korea
+</footer>
+
+
+
+</html>
